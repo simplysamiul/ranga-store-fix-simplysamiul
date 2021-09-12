@@ -2,13 +2,14 @@ const loadProducts = () => {
   const url = `https://fakestoreapi.com/products`;
   fetch(url)
     .then((response) => response.json())
-    .then((data) => showProducts(data));
+    .then((data) => console.log(data));
 };
 loadProducts();
 
 // show all product in UI 
 const showProducts = (products) => {
   const allProducts = products.map((pd) => pd);
+  console.log(allProducts);
   for (const product of allProducts) {
     const image = product.images;
     const div = document.createElement("div");
