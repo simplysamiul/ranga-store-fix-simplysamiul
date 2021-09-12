@@ -2,28 +2,35 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-.search-field {
-  border: none;
-  border-radius: 50px;
-  padding: 5px;
-  outline: none;
-}
-.search-field:hover {
-  outline: none;
-  border: none;
-}
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
-  border-radius: 5px;
+  width: 450px;
   margin: auto;
   margin-top: 50px;
-  border-right: none;
+}
+.search-field {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  padding: 12px;
+  outline: none;
+  width: 100%;
+}
+.button{
+  text-align: center;
 }
 .search-button {
-  padding: 10px 50px;
+  padding: 8px 25px;
   border-radius: 25px;
   margin-left: 20px;
+  margin-top: 15px;
+  font-size:16px;
+  letter-spacing:0.2rem;
+  border: none;
+  background-color: #e62525d9;
+  color: #fff;
+  font-weight:600;
+  box-shadow: 0 0 15px gray;
+  border-right: 8px solid #fff;
+  border-left: 8px solid #fff;
 }
 #all-products {
   display: grid;
